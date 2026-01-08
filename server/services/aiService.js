@@ -2,7 +2,7 @@ const OpenAI = require('openai');
 
 // 初始化豆包 API 客户端
 const client = new OpenAI({
-  apiKey: process.env.ARK_API_KEY || 'your-api-key-here',
+  apiKey: process.env.ARK_API_KEY || '42acdd22-8e19-4e94-b424-12e074c3ef89',
   baseURL: 'https://ark.cn-beijing.volces.com/api/v3'
 });
 
